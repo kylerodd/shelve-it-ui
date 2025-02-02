@@ -19,7 +19,7 @@ const Home = () => {
   };
   return (
     <div>
-      <List sx={{ backgroundColor: 'gray' }}>
+      <List sx={{ color: 'black' }}>
         {containers.map((container) => (
           <ListItem key={container.id}>
             <ListItemButton onClick={() => onItemClick(container)}>
