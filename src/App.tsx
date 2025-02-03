@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Container from '@/views/Container';
-import Home from '@/views/Home';
+import Dashboard from '@/views/Dashboard';
 
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -12,8 +11,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/container/:containerId" element={<Container />} />
+          <Route path="/" element={<Dashboard />} />
         </Routes>
       </BrowserRouter>
     </>
