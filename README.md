@@ -1,1 +1,1 @@
-React application for shevling/container application
+React application for shelving/container application
